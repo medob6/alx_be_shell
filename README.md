@@ -27,6 +27,9 @@ At the end of this project, you should be able to explain (without the help of G
 ---
 ## Project Structure
 
+## Project Structure
+
+```bash
 alx_be_shell/
 ├── 0-hello_world              → Prints “Hello, World”
 ├── 1-confused_smiley          → Displays a confused smiley "(Ôo)'
