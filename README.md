@@ -1,55 +1,44 @@
-# ALX BE SHELL
+# ALX BE SHELL – Shell Permissions
 
-## Description
+## 🧠 Description
 
-The **ALX BE SHELL** project introduces you to the **Unix shell**, **command-line interface (CLI)**, and **Bash scripting** — the foundation of system administration and DevOps.  
-Through this project, you’ll learn how the shell works, how to interact with your operating system using commands, and how to write scripts to automate tasks efficiently.
+The **ALX BE SHELL** project focuses on understanding and managing **Linux file permissions** through the command line.  
+You will learn how to view, modify, and assign permissions to files and directories using the **`chmod`**, **`chown`**, and **`su`** commands.  
 
-This project builds your confidence in working directly with the command line — a key skill for every software engineer.
+This project is part of the ALX Software Engineering curriculum and builds your foundation in **system administration**, **user management**, and **shell scripting**.
 
 ---
 
-## Learning Objectives
+## 🎯 Learning Objectives
 
-At the end of this project, you should be able to explain (without the help of Google):
+By the end of this project, you should be able to explain (without Google):
 
 ### General
-- What a **shell** is and how it works  
-- The difference between **terminal** and **shell**  
-- How to **navigate** the filesystem  
-- What **commands**, **arguments**, and **options** are  
-- How to use **environment variables** and **PATH**  
-- How to **redirect** input and output (stdin, stdout, stderr)  
-- How to use **pipes**, **filters**, and **command chaining**  
-- How to **set permissions** and understand **file ownership**  
-- How to write, execute, and debug **Bash scripts**  
+- What the **Linux shell** is  
+- What **permissions** are and how they work  
+- How to represent permissions in **symbolic** and **octal** notation  
+- How to **change file ownership** and **user groups**  
+- How to **switch users** in the terminal  
+- The difference between **root**, **user**, and **group** permissions  
+- How to make files **executable**  
+- How to use **`chmod`**, **`chown`**, and **`sudo`**
 
 ---
-## Project Structure
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```bash
 alx_be_shell/
-├── 0-hello_world              → Prints “Hello, World”
-├── 1-confused_smiley          → Displays a confused smiley "(Ôo)'
-├── 2-hellofile                → Displays the content of /etc/passwd
-├── 3-twofiles                 → Displays content of two files
-├── 4-lastlines                → Displays the last 10 lines of a file
-├── 5-firstlines               → Displays the first 10 lines of a file
-├── 6-third_line               → Displays the third line of a file
-├── 7-file                     → Creates a file with specific text
-├── 8-cwd_state                → Writes the state of the current working directory
-├── 9-duplicate_last_line      → Duplicates the last line of a file
-├── 10-back                    → Changes to the previous directory
-├── 11-lists                   → Lists all files (including hidden)
-├── 12-file_type               → Prints the type of a file
-├── 13-symbolic_link           → Creates a symbolic link
-├── 14-copy_html               → Copies HTML files to parent directory
-├── 100-lets_move              → Moves all files beginning with uppercase letters
-├── 101-clean_emacs            → Deletes all files ending with ~
-├── 102-tree                   → Creates directories in a specific structure
-├── 103-commas                 → Lists all files separated by commas
-└── README.md                  → Project documentation
-
+├── 0-iam_betty               → Switches the current user to the user betty
+├── 1-who_am_i                → Prints the effective username of the current user
+├── 2-groups                  → Prints all the groups the current user is part of
+├── 3-new_owner               → Changes the owner of a file
+├── 4-empty                   → Creates an empty file
+├── 5-execute                 → Adds execute permission to the owner of a file
+├── 6-multiple_permissions    → Adds execute permission to owner/group and read permission to others
+├── 7-everybody               → Adds execution permission to everyone
+├── 8-James_Bond              → Sets permissions so only others have all rights
+├── 9-John_Doe                → Sets specific permissions to a file using numeric mode
+├── 10-mirror_permissions     → Mirrors permissions of another file
+└── README.md                 → Project documentation
 
